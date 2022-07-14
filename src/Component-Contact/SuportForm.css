@@ -1,0 +1,66 @@
+.SuportForm-Content {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.SuportForm-Content > span {
+    display: inline-block;
+    /* transform: translateY(calc((100%/2)-70px)); */
+    color: #796eff;
+    padding: 4px 25px;
+    background-color: rgba(121, 110, 255, 0.1);
+    border-radius: 50px;
+    margin-bottom: 25px;
+}
+
+.SuportForm-Content > h2 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.form-sp-container {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item-sp {
+    width: 17%;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    border: 1px solid #e3e6f0;
+    border-top-width: 0.25rem;
+    margin: 0 15px;
+    transition: .3s;
+}
+
+.item-sp > a {
+    display: block;
+    padding: 50px 0 50px 0;
+}
+
+.item-sp > a > img {
+    width: 80px;
+    margin: 0 35px 25px 35px;
+}
+
+.item-sp > a > a {
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.item-sp > a > p {
+    margin-bottom: 10px;
+}
+
+.item-sp:hover {
+    transform: translateY(-5%);
+    border: 1px solid #796eff;
+    border-top-width: 0.25rem;
+    transition: .3s;
+}

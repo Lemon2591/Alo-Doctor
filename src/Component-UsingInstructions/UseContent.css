@@ -1,0 +1,180 @@
+.UseContainer {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.UserContainer-Content {
+    max-width: 1140px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.UserContainer-Content-Img {
+    text-align: center;
+    width: 50%;
+}
+
+.UserContainer-Content-Img > img {
+    margin: auto;
+}
+.UserContainer-Content-List {
+    width: 50%;
+}
+
+.UserContainer-Content-List-Item {
+    margin-top: 20px;
+}
+
+.UserContainer-Content-List-Item > li {
+    list-style-type: none;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 50px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    cursor: pointer;
+}
+.UserContainer-Content-Item-Number {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 40px;
+    flex: 0 0 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #007aff;
+    background: #fff;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    z-index: 20;
+    position: relative;
+}
+
+.UserContainer-Content-Item-Content .UserContainer-Content-Item-Content-Name{
+    font-weight: 500;
+    font-size: 18px;
+    margin: 10px 0px 10px 20px;
+    transition: .3s;
+}
+
+.HideUse {
+    display: flex ;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #ccc;
+    max-width: 36px;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.UserContainer-Content-Item {
+    margin-bottom: 20px;
+}
+
+.UserContainer-Content-Item-Content-Text {
+    margin-bottom: 15px;
+}
+
+
+
+.HideUse  > i {
+    font-size: 20px;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+
+p {
+    margin: 0;
+}
+
+.book-an-appointment  {
+    background-color: #f26522;
+    max-width: 200px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 5px;
+}
+.book-an-appointment > i {
+    font-size: 18px;
+}
+
+.text-bold {
+    font-weight: 600;
+}
+
+.text-decoration {
+    margin: 10px 0;
+    text-decoration:underline;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.mg-10 {
+    margin: 0 0 10px 0;
+}
+
+.text-bold-small {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 10px 0;
+    opacity: .9;
+}
+
+.d-plex {
+    display: flex;
+    align-items: center;
+}
+.d-plex > a {
+
+}
+
+.d-plex > a > i {
+    font-size: 20px;
+    margin-left: 20px;
+    height: 100%;
+}
+
+.middle {
+    
+}
+
+
+.UserContainer-Content-Item:hover .UserContainer-Content-Item-Content-Name {
+    color: #689f38;
+    transition: .3s;
+} 
+
+.activeList {
+    border: 2px solid #007aff;
+    flex: 0 0 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #689f38;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99999;
+    position: relative;
+}

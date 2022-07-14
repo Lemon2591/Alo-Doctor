@@ -1,0 +1,136 @@
+.top-navbar {
+    z-index: 4;
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+}
+
+.top-bar {
+    background-color: #307be7 ;
+    height: 100%;
+    width: 100%;
+}
+
+.top-bar-list {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+.top-bar-list >.top-bar-list-item1 {
+    margin-left: 500px;
+}
+
+.top-bar-list > li {
+    list-style-type: none;
+}
+
+.top-bar-list {
+    margin-bottom: 0;
+}
+
+.top-bar-list > li > a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    /* vertical-align: middle; */
+    display: inline-block;
+    transition: .3s;
+}
+
+.top-bar-list > li > a > i {
+    /* vertical-align: middle; */
+    color: #fff;
+    margin: 0 5px 0 20px;
+    font-size: 14px;
+
+}
+
+.top-bar-list > li > .top-bar-list-log-in-item {
+    padding: 10px 20px;
+}
+
+.top-bar-list > li >a:hover {
+    color: #20c997;
+    transition: .3s;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px 0;
+    
+}
+.nav-list-link {
+    display: flex;
+    align-items: center;
+    transition: .3s;
+}
+
+.list-item-all {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    margin: 0;
+}
+
+.list-item-all > li > a {
+    text-decoration: none;
+    color: rgb(75, 75, 75);
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.nav-btn {
+    display: flex;
+    align-items: center;
+}
+
+.nav-btn > .nav-btn-click {
+    background-color: #fff;
+    border: #307be7 solid 1px;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    padding:  5px 15px;
+    border-radius: 50px;
+    transition: .5s;
+}
+
+.nav-item-link:hover {
+    color: #307be7;
+    transition: .3s
+}
+
+.nav-btn-click:hover {
+    color: #fff;
+    background-color: #307be7;
+    transition: .5s;
+}
+
+
+.active-bar > a {
+    color: #307be7 !important;
+}
+
+.active-bar::before {
+    content: "";
+    position: absolute;
+    background: #307be7;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    bottom: -5px;
+    transition: .5s;
+    opacity: 1;
+    border-radius: 10px;
+}

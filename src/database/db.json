@@ -1,0 +1,85 @@
+{
+  "accounts": [
+    {}
+  ],
+  "doctorAccount": [
+    {
+      "userName": "11",
+      "email": "11111@11111",
+      "password": "1",
+      "confirmPassword": "1",
+      "role": "BS",
+      "id": 1
+    }
+  ],
+  "patientAccount": [
+    {
+      "userName": "anhqt5",
+      "email": "cnnhok6262@gmail.com",
+      "password": "12345",
+      "confirmPassword": "12345",
+      "role": "BN",
+      "id": 1
+    },
+    {
+      "userName": "anhanh",
+      "email": "cnnhok6262@gmail.com",
+      "password": "1",
+      "confirmPassword": "1",
+      "role": "BN",
+      "id": 2
+    },
+    {
+      "userName": "anhqt51",
+      "email": "cnnhok6262@gmail.com",
+      "password": "1",
+      "confirmPassword": "1",
+      "role": "BN",
+      "id": 3
+    }
+  ],
+  "profilePatient": [
+    {
+      "fullName": "Quách Tuấn Anh",
+      "phoneNumber": "0868158218",
+      "date": "2022-07-14",
+      "sex": "Nam",
+      "country": "Việt Nam",
+      "state": "Hà Giang",
+      "town": "Nguyễn Trãi",
+      "nation": "Kinh",
+      "village": "Tổ 6",
+      "mail": "cnnhok6262@gmail.com",
+      "location": "Nguyễn Trãi - Hà Giang",
+      "passport": "2131231231231312",
+      "relativeName": "Nguyễn Văn A",
+      "relativeNumber": "13123123123",
+      "healthInsurance": "SV2821001402141",
+      "relativeMail": "chunha2411@gmail.com",
+      "relative": "Chồng",
+      "idAccount": "1",
+      "id": 1
+    },
+    {
+      "fullName": "Quách Tuấn Anh",
+      "phoneNumber": "0868158218",
+      "date": "2022-07-14",
+      "sex": "Nam",
+      "country": "Việt Nam",
+      "state": "Hà Giang",
+      "town": "Nguyễn Trãi",
+      "nation": "Kinh",
+      "village": "Tổ 6",
+      "mail": "cnnhok6262@gmail.com",
+      "location": "Nhật Tân - Tiên Lữ - Hưng Yên",
+      "passport": "1231232131231",
+      "relativeName": "123213213213",
+      "relativeNumber": "1231231231",
+      "healthInsurance": "213213123123",
+      "relativeMail": "chunha2411@gmail.com",
+      "relative": "Chồng",
+      "idAccount": "3",
+      "id": 2
+    }
+  ]
+}

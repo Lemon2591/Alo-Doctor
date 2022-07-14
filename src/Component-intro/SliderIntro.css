@@ -1,0 +1,69 @@
+.Slider-Intro_Container {
+    padding-top: 50px;
+    position: relative;
+    top: 120px;
+}
+.Slider-Intro_Content {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.Slider-Intro_Content_All > p {
+    color: #0d6efd;
+    font-size: 26px;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-bottom: #0d6efd solid 1px;
+    padding-bottom: 15px;
+}
+
+.Slider-Intro_Content_About_text .Slider-Intro_Content_About_text_slogan {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.Slider-Intro_Content_About_text  .Slider-Intro_Content_About_text_content > span{
+    font-weight: 600;
+}
+
+
+.Slider-Intro_Content_About {
+    margin-top: 50px;
+    display: flex;
+}
+
+.Slider-Intro_Content_About_text {
+    margin-right: 50px;
+}
+
+.Slider-Intro_Content_About-list {
+    padding-left: 0;
+    margin-top: 50px;
+}
+
+.Slider-Intro_Content_About-list .Slider-Intro_Content_About-list-item {
+    margin: 10px 0;
+    list-style-type: none;
+}
+
+.Slider-Intro_Content_About-list .Slider-Intro_Content_About-list-item > i {
+    color: #0d6efd;
+    font-size: 13px;
+    margin-right: 5px;
+}
+
+.Slider-Intro_Content_About-below {
+    max-width: 1140px;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.Slider-Intro_Content_About-below > p {
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+
+.Slider-Intro_Content_About_img > img {
+    width: 100%;
+}
